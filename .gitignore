@@ -6,5 +6,6 @@
 *.jar
 *.class
 .cache-main
+.directory
 .classpath
 .project
