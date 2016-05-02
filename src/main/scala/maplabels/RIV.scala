@@ -67,8 +67,8 @@ class RIV (vectorSize: Int, vectorPoints: HashMap[Int, Double]) {
   
   def permute (permutations: Permutations, times: Int) =
     times match {
-      case 0 => this
       case x if x > 0 => permutationLoop(points, permutations.permutation, times)
       case x if x < 0 => permutationLoop(points, permutations.inverse, -times)
+      case _          => this
     }
 }
