@@ -1,4 +1,4 @@
-package main.scala.vectorpermutations
+package main.scala.riv
 
 import scala.util.Random
 

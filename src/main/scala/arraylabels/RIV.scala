@@ -1,6 +1,7 @@
 package main.scala.arraylabels
 
 import scala.collection.immutable.Vector
+import main.scala.vectorpermutations.Permutations
 
 class RIV (vectorSize: Int, vectorPoints: Vector[VectorElement]) {
   
